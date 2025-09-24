@@ -1,0 +1,14 @@
+{
+  "domain": "nanit",
+  "name": "Nanit Baby Camera",
+  "codeowners": ["@astange"],
+  "dependencies": [""],
+  "config_flow": true,
+  "documentation": "https://github.com/astange/nanit-hass",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/astange/nanit-hass/issues",
+  "loggers": ["aiohue"],
+  "requirements": ["aiohue==1.9.1"],
+  "quality_scale": "bronze"
+}
