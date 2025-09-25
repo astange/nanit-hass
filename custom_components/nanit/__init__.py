@@ -4,7 +4,7 @@ from homeassistant.const import Platform
 
 from .const import DOMAIN
 
-PLATFORMS = [Platform.SENSOR]
+PLATFORMS = [Platform.CAMERA]
 
 async def async_setup_entry(hass: HomeAssistant, config: ConfigEntry) -> bool:
     """Set up Nanit from a config entry."""
